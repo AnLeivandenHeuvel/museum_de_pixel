@@ -1,0 +1,14 @@
+body {
+    background: url("Images/Mario\ Sunshine\ background3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ 
+  #LogoMario {
+    width: 500px;
+  }
+h1 {
+    font-size: xx-large;
+ 
+}
