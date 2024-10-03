@@ -1,5 +1,5 @@
 body {
-     background-image: url(img/stars\ .jpg); 
+     background-image: url("img/stars\ .jpg");
      background-repeat: no-repeat; 
      background-size: cover;
 }
@@ -45,8 +45,12 @@ top: 0px;
     left: 160px;
     top: 0px;
 }
-.img5 {
-    position:fixed;
-    left: 820px;
-    top:50px;
+.img6 {
+    position: relative;
+    left: 850px;
+    bottom:10px;
+    right:110px;
+    top: -250px;
+  
 }
+
