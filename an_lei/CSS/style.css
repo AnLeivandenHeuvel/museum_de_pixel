@@ -1,9 +1,9 @@
-body {
-    background-image: url("img/background.jpg"); 
-    background-repeat: no-repeat; 
-    background-size: cover;
+ body {
+        background-image: url("img/stars .jpg"); 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-color: rgb(66, 6, 6);
 }
-
 p1 {
     color: white;
     font-family:'Courier New', Courier, monospace;
@@ -28,23 +28,23 @@ p2{
 .img1{
 position: relative;
 left: 620px; 
-top: 0px;   
+top: -55px;   
 }
 .img2 {
     position: relative;
     left:640px ;
-    top: 0px;
+    top: -55px;
 }
 .img3 {
     position: relative;
     left: 660px;
-    top:0px;
+    top: -55px;
 
 }
 .img4 {
     position: relative;
     left: 160px;
-    top: 0px;
+    top: -55px;
 }
 .img6 {
     position: relative;
@@ -54,4 +54,3 @@ top: 0px;
     top: -250px;
   
 }
-
