@@ -1,56 +1,73 @@
- body {
-        background-image: url("img/stars .jpg"); 
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-color: rgb(66, 6, 6);
+body {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(22, 20, 20);
 }
 p1 {
-    color: white;
-    font-family:'Courier New', Courier, monospace;
-    position: relative;
-    left: 10px;  
-    top: 100px;   
+   color: white;
+   font-family:'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;  
+   top: 10px;   
+}
+button{
+   background-color: rgb(31, 255, 1);
+   color: white;
+   border-radius: 30px;
+  margin-top: 120px;
+  
 }
 h5{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    left: 10px;
-    top: 130px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;
+   top: 10px;
 }
+h1{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+ 
+}
+
 p2{
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    left: 10px;
-    top: 120px;
+   color: aqua;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;
+   top: 120px;
 }
+
 .img1{
 position: relative;
-left: 620px; 
-top: -55px;   
+left: 620px;
+top: 0px;   
 }
 .img2 {
-    position: relative;
-    left:640px ;
-    top: -55px;
+   position: relative;
+   left:640px ;
+   top: 0px;
 }
 .img3 {
-    position: relative;
-    left: 660px;
-    top: -55px;
+   position: relative;
+   left: 660px;
+   top:0px;
 
 }
 .img4 {
-    position: relative;
-    left: 160px;
-    top: -55px;
+   position: relative;
+   left: 160px;
+   top: 0px;
+}
+.img5 {
+   position:fixed;
+   left: 820px;
+   top:50px;
 }
 .img6 {
-    position: relative;
-    left: 850px;
-    bottom:10px;
-    right:110px;
-    top: -250px;
-  
+   position: fixed;
+   left: 1000px;
+   top: 450px;
 }
