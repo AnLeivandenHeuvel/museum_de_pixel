@@ -1,8 +1,10 @@
 body {
-   
+   background-image: url("../img/stars.jpg");
+ 
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(22, 20, 20);
+  
+     
 }
 p1 {
    color: white;
@@ -42,32 +44,27 @@ p2{
 
 .img1{
 position: relative;
-left: 620px;
-top: 0px;   
+left: ;
+top: ;   
 }
 .img2 {
    position: relative;
-   left:640px ;
-   top: 0px;
+   left: ;
+   top:;
 }
 .img3 {
    position: relative;
-   left: 660px;
-   top:0px;
+   left:110 ;
+   top:;
 
 }
 .img4 {
    position: relative;
-   left: 160px;
-   top: 0px;
+   left:850px ;
+   top: ;
 }
-.img5 {
-   position:fixed;
-   left: 820px;
-   top:50px;
-}
-.img6 {
-   position: fixed;
-   left: 1000px;
-   top: 450px;
+.navbar ul {
+   list-style-type: none;
+   background-color: blueviolet;
+   padding: 0px;
 }
