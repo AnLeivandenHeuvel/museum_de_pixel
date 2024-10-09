@@ -1,6 +1,5 @@
 body {
-   background-image: url("../img/stars.jpg");
- 
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -60,8 +59,8 @@ top: ;
 }
 .img4 {
    position: relative;
-   left:850px ;
-   top: ;
+   left:20px ;
+   top: 10;
 }
 .navbar ul {
    list-style-type: none;
