@@ -1,70 +1,46 @@
 body {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-  
-     
+    background-size: cover;  
 }
 p1 {
-   color: white;
+   color: rgb(145, 255, 0);
    font-family:'Courier New', Courier, monospace;
    position: relative;
    left: 10px;  
    top: 10px;   
 }
 button{
-   background-color: rgb(31, 255, 1);
+   background-color: rgba(133, 233, 11, 0.235);
    color: white;
    border-radius: 30px;
   margin-top: 120px;
-  
 }
+
 h5{
-   color: white;
+   color: rgb(145, 255, 0);
    font-family: 'Courier New', Courier, monospace;
    position: relative;
    left: 10px;
    top: 10px;
 }
 h1{
-   color: white;
+   color: rgb(145, 255, 0);
    font-family: 'Courier New', Courier, monospace;
    position: relative;
- 
 }
-
 p2{
-   color: aqua;
+   color: rgb(145, 255, 0);
    font-family: 'Courier New', Courier, monospace;
    position: relative;
    left: 10px;
    top: 120px;
-}
-
-.img1{
-position: relative;
-left: ;
-top: ;   
-}
-.img2 {
-   position: relative;
-   left: ;
-   top:;
-}
-.img3 {
-   position: relative;
-   left:110 ;
-   top:;
 
 }
-.img4 {
-   position: relative;
-   left:20px ;
-   top: 10;
-}
+
 .navbar ul {
    list-style-type: none;
-   background-color: blueviolet;
+   background-color: rgb(114, 101, 126);
    padding: 0px;
    margin: 0px;
    overflow: hidden;
@@ -77,8 +53,23 @@ top: ;
    text-align: center;
 }
 .navbar a:hover {
-   background-color: beige;
+   background-color: greenyellow;
 }
 .navbar li{
    float: left;
 }
+
+#img_6 {
+   float: right;
+   margin-top: 125px;
+   margin-right: 150px;
+}
+
+.ships {
+   float: right;
+   margin-top: -250px; 
+
+}
+
+   
+
