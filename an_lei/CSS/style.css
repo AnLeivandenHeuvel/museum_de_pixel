@@ -59,13 +59,15 @@ p2{
    float: left;
 }
 
+#img_6 {
+   float: right;
+   margin-top: 125px;
+   margin-right: 150px;
+}
+
 .ships {
    float: right;
-  
-}
-.yeet {
-   float: right;
-   border: 5px solid rgb(18, 181, 94);
+   margin-top: -250px; 
 
 }
 
