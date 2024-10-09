@@ -1,0 +1,41 @@
+body {
+    background-image: url("../img/background.jpg");
+}
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+p3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+ }
+ .navbar ul {
+    list-style-type: none;
+    background-color: rgb(114, 101, 126);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+ }
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+ }
+ .navbar a:hover {
+    background-color: greenyellow;
+ }
+ .navbar li{
+    float: left;
+ }
+
+.Namaco {
+    border: 1px solid black;
+    float: right;
+    border: 5px solid rgb(18, 181, 94);
+ 
+ 
+}
