@@ -1,6 +1,66 @@
 body {
     background-image: url(images/52a33c10ae0c117156dd2807a4f324da.jpg);
 }
-foto{
-   
+.gallery{
+    display: inline-block;
+}
+.box img{
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    height: 300px;
+
+}
+.boxe img{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+p{
+    margin-top: 20%;
+    color: white;
+}
+#pink{
+    position: absolute;
+    top: 700px;
+    right: 10;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(68, 17, 116);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+ }
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+ }
+ .navbar a:hover {
+    background-color: rgb(147, 176, 255);
+ }
+ .navbar li{
+    float: left;
+ }
+ .button-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: white; 
+    background-color: #007BFF; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #0056b3; 
 }
