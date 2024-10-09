@@ -1,0 +1,84 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+     
+}
+p1 {
+   color: white;
+   font-family:'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;  
+   top: 10px;   
+}
+button{
+   background-color: rgb(31, 255, 1);
+   color: white;
+   border-radius: 30px;
+  margin-top: 120px;
+  
+}
+h5{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;
+   top: 10px;
+}
+h1{
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+ 
+}
+
+p2{
+   color: aqua;
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+   left: 10px;
+   top: 120px;
+}
+
+.img1{
+position: relative;
+left: ;
+top: ;   
+}
+.img2 {
+   position: relative;
+   left: ;
+   top:;
+}
+.img3 {
+   position: relative;
+   left:110 ;
+   top:;
+
+}
+.img4 {
+   position: relative;
+   left:20px ;
+   top: 10;
+}
+.navbar ul {
+   list-style-type: none;
+   background-color: blueviolet;
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+}
+.navbar a{
+   color: aliceblue;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+.navbar a:hover {
+   background-color: beige;
+}
+.navbar li{
+   float: left;
+}
