@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(114, 101, 126);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+ }
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+ }
+ .navbar a:hover {
+    background-color: greenyellow;
+ }
+ .navbar li{
+    float: left;
+ }
