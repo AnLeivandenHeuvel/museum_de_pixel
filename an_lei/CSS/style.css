@@ -63,12 +63,12 @@ p2{
    float: right;
    margin-top: 125px;
    margin-right: 150px;
+   border-radius: 3px;
 }
 
 .ships {
    float: right;
    margin-top: -250px; 
-
 }
 
    
