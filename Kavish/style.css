@@ -17,7 +17,7 @@ body {
     right: 400px;
 }
 p{
-    margin-top: 20%;
+    margin-top: 25%;
     color: white;
 }
 #pink{
@@ -48,19 +48,20 @@ p{
  .button-container {
     display: flex;
     gap: 20px; 
+;
 }
 
 .btn {
     padding: 10px 20px;
-    font-size: 16px; 
+    font-size: 20px; 
     color: white; 
     background-color: #007BFF; 
     border: none; 
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s; 
-}
 
+}
 .btn:hover {
     background-color: #0056b3; 
 }
