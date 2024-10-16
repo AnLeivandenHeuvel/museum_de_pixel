@@ -1,0 +1,87 @@
+body {
+    background: url("Images/Mario\ Sunshine\ background4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+}
+
+ 
+  #LogoMario {
+    width: 500px;
+    
+  }
+h1 {
+    font-size: xx-large;
+     background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+  
+ 
+}
+
+
+  p {
+    background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+ul {
+  list-style: circle;
+  background-color: rgba(29,65,63,0.5);
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 1000px;
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: blueviolet;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: beige;
+}
+.navbar li{
+  float: left;
+}
+
+
+#container{
+  position: relative;
+  height: 0vh;
+}
+#Gamecover { 
+  position: absolute; 
+  left: 50%;       
+  top: 0%;         
+  transform: translate(-50%, -50%); 
+  width: 200px;      
+  height: auto;
+ 
+}
+
+#GifA {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+} 
+  
