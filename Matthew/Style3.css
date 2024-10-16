@@ -1,20 +1,11 @@
-
 body {
     background: url("Images/Mario\ Sunshine\ background4.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif;
-h1 {
-  text-align: center;
+
 }
-}
-p {
-    background-color: rgba(29,65,63,0.5);
-    color: white;
-    padding: 20px;
-    margin: 0 auto;
-    width: 1000px;
-}
+
 .navbar ul {
     list-style-type: none;
     background-color: blueviolet;
@@ -36,9 +27,13 @@ p {
     float: left;
   }
 
-  #Gamecover{
-    float: center;
-  }
-  
 
-  
+
+#Rechts {
+  text-align: right;
+}
+  #Prison {
+    max-width: 20%;
+    height: auto;
+  }
+

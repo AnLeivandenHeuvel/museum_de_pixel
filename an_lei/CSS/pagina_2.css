@@ -7,7 +7,7 @@ h1 {
     position: relative;
 }
 p3 {
-    color: white;
+    color: rgb(145, 255, 0);
     font-family: 'Courier New', Courier, monospace;
     position: relative;
  }
@@ -34,8 +34,24 @@ p3 {
 
 .Namaco {
     border: 1px solid black;
-    float: right;
-    border: 5px solid rgb(18, 181, 94);
+    border: 5px solid rgb(181, 26, 18);
  
- 
+}
+.tekst {
+    width: 30%;
+    padding: 15px;
+    margin:0px;
+    display:inline-block;
+    border:1px solid;
+  
+ }
+ #tekst {
+    width: 30%;
+    padding: 15px;
+    margin:0px;
+    display:inline-block;
+    border:1px solid;
+ }
+.img {
+  
 }
