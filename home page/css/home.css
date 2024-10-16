@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
+ 
+.section {
+    flex: 1; /* Each section will take equal width */
+    padding: 20px;
+    border: 1px solid #000003;
+    box-sizing: border-box; 
+}
+ 
+#Pac-Man{
+    background-image: url(../img/background_pacman.jpg);
+    width: 30vw;
+    
+}
+ 
+#Galaga {
+    background-image: url(../img/background_galaga.jpg);
+    width: 30vw;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+ 
+#Mario {
+    background-image: url(../img/Mario\ Sunshine\ background4.png);
+    width: 30vw;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    
+}
+.game_img {
+    width: 80%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(27, 82, 150);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+ }
+ .navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+ }
+ .navbar a:hover {
+    background-color: greenyellow;
+ }
+ .navbar li{
+    float: right;
+ }
+
+ 
