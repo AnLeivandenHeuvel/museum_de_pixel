@@ -2,6 +2,8 @@ body {
     background: url("Images/Mario\ Sunshine\ background4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, sans-serif;
+
 }
 
 .navbar ul {
@@ -24,3 +26,14 @@ body {
   .navbar li{
     float: left;
   }
+
+
+
+#Rechts {
+  text-align: right;
+}
+  #Prison {
+    max-width: 20%;
+    height: auto;
+  }
+

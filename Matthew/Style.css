@@ -2,26 +2,43 @@ body {
     background: url("Images/Mario\ Sunshine\ background4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Arial, sans-serif;
+
 }
 
  
   #LogoMario {
     width: 500px;
+    
   }
 h1 {
     font-size: xx-large;
-    
+     background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
   
  
 }
 
-p {
-  
+
+  p {
+    background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
 }
+
 
 ul {
   list-style: circle;
-
+  background-color: rgba(29,65,63,0.5);
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 1000px;
   
 }
 
@@ -61,4 +78,10 @@ ul {
  
 }
 
+#GifA {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+} 
   
