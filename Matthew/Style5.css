@@ -3,10 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif;
-    
 
-
-}
 
 .navbar ul {
     list-style-type: none;
@@ -29,25 +26,16 @@ body {
     float: left;
   }
 
-
-
-
-  #Prison {
-    max-width: 20%;
-    height: auto;
-    
-  }
-  
-
-  .zwart {
+  p {
     background-color: rgba(29,65,63,0.5);
     color: white;
     padding: 20px;
     margin: 0 auto;
     width: 1000px;
   }
+}
 
- #Einde {
-    max-width: 30%;
+#sun {
+    max-width: 10%;
     height: auto;
- }
+}
