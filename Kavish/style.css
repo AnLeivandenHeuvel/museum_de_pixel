@@ -1,66 +1,171 @@
 body {
     background-image: url(images/52a33c10ae0c117156dd2807a4f324da.jpg);
+    height: 1920;
+    width: 1080;
 }
-.gallery{
+
+.gallery {
     display: inline-block;
 }
-.box img{
+
+.box img {
     position: absolute;
     top: 100px;
     width: 500px;
     height: 300px;
-
 }
-.boxe img{
+
+.boxe img {
     position: absolute;
     top: 100px;
-    right: 400px;
+    right: 200px;
 }
-p{
-    margin-top: 20%;
+
+p {
+    font-size: 150%;
+    margin-top: 37%;
     color: white;
 }
-#pink{
+h1{
     position: absolute;
-    top: 700px;
-    right: 10;
+    left: 50px;
+    top: 65%;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+h1 span:nth-child(1)
+{animation-delay: 0s;}
+h1 span:nth-child(2)
+{animation-delay: 0.5s;}
+h1 span:nth-child(3)
+{animation-delay: 1s;}
+h1 span:nth-child(4)
+{animation-delay: 1.5s;}
+h1 span:nth-child(5)
+{animation-delay: 2s;}
+h1 span:nth-child(6)
+{animation-delay: 2.5s;}
+
+@keyframes animate
+{
+    0%, 100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 10px #00b3ff,
+        0 0 10px #00b3ff,
+        0 0 10px #00b3ff,
+        0 0 10px #00b3ff,
+        0 0 10px #00b3ff;
+    }
+    5%, 95%
+    { 
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px none;
+    }
+}
+#pink {
+    position: absolute;
+    top: 550px;
+    right: 200px;
+}
+
+#inky {
+    position: absolute;
+    top: 550px;
+    right: 450px;
+}
+
 .navbar ul {
     list-style-type: none;
     background-color: rgb(68, 17, 116);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
- }
- .navbar a{
+}
+
+.navbar a {
     color: aliceblue;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
- }
- .navbar a:hover {
+}
+
+.navbar a:hover {
     background-color: rgb(147, 176, 255);
- }
- .navbar li{
+}
+
+.navbar li {
     float: left;
- }
- .button-container {
+}
+
+.btn-group-vertical {
     display: flex;
-    gap: 20px; 
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .btn {
-    padding: 10px 20px;
-    font-size: 16px; 
-    color: white; 
-    background-color: #007BFF; 
-    border: none; 
+    display: block;
+    margin: 5px 0; 
+    padding: 3px 8px;
+    font-size: 40px; 
+    font-family: monospace;
+    border: 2px solid #000;
+    color: white;
+    background-color: #001f98;
     border-radius: 5px; 
     cursor: pointer; 
-    transition: background-color 0.3s; 
+    width: 600px;
+    position: relative; 
+    transition-duration: 0.4s;
 }
 
 .btn:hover {
-    background-color: #0056b3; 
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 106, 255, 0.8); 
+}
+
+.btn:active {
+    box-shadow: 0 0 20px rgba(0, 106, 255, 0.8);
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(45deg, #00b3ff, #13136f, #2121DE, #5e5a59, #761414, #9923b1);
+    background-size: 600%;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    opacity: 0; 
+    border-radius: 5px; 
+    z-index: -1; 
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.btn:hover::before,
+.btn:active::before {
+    opacity: 1; /* Maak de gloed zichtbaar bij hover en klik */
 }
