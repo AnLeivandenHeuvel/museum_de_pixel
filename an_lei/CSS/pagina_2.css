@@ -36,7 +36,9 @@ p3 {
  .navbar li{
     float: left;
  }
-
+#logo {
+   float: left;
+}
 .Namaco {
     border: 1px solid black;
     border: 5px solid rgb(181, 26, 18);
@@ -48,7 +50,6 @@ p3 {
     margin:0px;
     display:inline-block;
     border:1px solid;
-  
  }
  #tekst {
     width: 30%;
@@ -61,4 +62,18 @@ p3 {
   float: left;
   border: 5px;
   border-color: aquamarine;
+}
+.img_1 {
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px; 
+   margin-top: 10px;
+}
+.img_2 {
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px; 
+   margin-top: 10px;
 }

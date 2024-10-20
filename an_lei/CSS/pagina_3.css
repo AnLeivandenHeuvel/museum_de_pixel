@@ -1,7 +1,6 @@
 body{
     background-image: url(../img/background.jpg);
     font-family: 'Courier New', Courier, monospace;
-   
 
 }
 .navbar ul {
@@ -24,12 +23,19 @@ body{
  .navbar li{
     float: left;
  }
- 
+p2 {
+  color: limegreen
+}
+p3{
+  color: limegreen;
+}
+
  p1 {
    margin: 0;
    padding: 0;
    color: lawngreen;
-  font-size: 16em;
+  font-size: 6em;
+  float: right;
  }
  p1 span {
    display: table-cell;
