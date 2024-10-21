@@ -3,11 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>character pacman</title>
     <link rel="stylesheet" href="style3.css">
+    <script src="script3.js"></script>
 </head>
 <body>
-    <h1>oooooo</h1>
+    <nav class="navbar">
+        <ul>
+          <li><a href="../home page/home_page.html"> home</a></li>
+          <li><a href="../Matthew/Index.html"> Mario</a></li>
+          <li><a href="../Kavish/index.html"> Pac man</a></li>
+          <li><a href="../an_lei/pagina_1.html"> Galaga</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1>
+        <span>C</span>
+        <span>H</span>
+        <span>A</span>
+        <span>R</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+        <span>E</span>
+        <span>R</span>
+        </h1>
+      </header>
+
+
+      <img id="blink" src="images/image 9.png" alt="">
+      <img id="pinky" class="klikbare-afbeelding" src="images/image 12.png" alt="">
+      <img id="inky" class="klikbare-afbeelding" src="images/image 11.png" alt="" onclick="toggleText('inky')">
+      <img id="Clyde" src="images/image 10.png" alt="">
+      <img id="big" src="images/pacman-gaming.gif" alt="">
+
+      <div class="container" id="container-pinky">
+        <img id="pinky" class="klikbare-afbeelding" src="images/image 12.png" alt="" onclick="toggleText('pinky')">
+        <h1 id="pinky-titel" style="display: none;">Pinky</h1>
+        <div class="tekst" id="pinky-tekst">
+            <p id="roze">
+                Pinky staat bekend om zijn slimme strategie. In plaats <br>
+                van Pac-Man direct te volgen, probeert hij te anticiperen <br>
+                op zijn bewegingen en zich in zijn pad te positioneren. Dit <br>
+                maakt hem een onvoorspelbare tegenstander. Pinky is een <br>
+                iconisch personage en draagt bij aan de dynamiek van het spel.
+            </p>
+        </div>
+    </div>
     
+    <div class="container" id="container-inky">
+        <img id="inky" class="klikbare-afbeelding" src="images/image 11.png" alt="" onclick="toggleText('inky')">
+        <h1 id="inky-titel" style="display: none;">Inky</h1>
+        <div class="tekst" id="inky-tekst">
+            <p id="blauw">
+                Inky is het blauwe spook in Pac-Man. Hij heeft een onvoorspelbare <br>
+                bewegingsstijl die afhangt van de posities van Pac-Man en het rode <br>
+                spook, Blinky. Inky kan zowel agressief als defensief zijn, wat het <br>
+                spel uitdagend maakt.
+            </p>
+        </div>
+    </div>
+    
+
+      <p id="rood">
+        Blinky is het rode spook in Pac-Man. Hij is het meest agressieve spook <br>
+        en volgt Pac-Man direct. Blinky is snel en probeert altijd Pac-Man te <br>
+        vangen, waardoor hij de grootste dreiging vormt. Zijn strategie is <br>
+        simpel: hij streeft altijd naar de positie van Pac-Man, wat hem <br>
+        voorspelbaar maar gevaarlijk maakt.
+      </p>
+      <h1 id="roodtitel">Blinky</h1>
+      <p id="oranje">
+        Clyde is het oranje spook in Pac-Man. Hij heeft een unieke en onvoorspelbare <br>
+         bewegingsstijl. In tegenstelling tot de andere spookjes, die vaak Pac-Man <br>
+          volgen, verandert Clyde zijn strategie en vlucht soms weg van hem, vooral <br>
+          als ze dicht bij elkaar zijn. Dit maakt hem een minder consistente bedreiging,<br>
+           maar zijn onvoorspelbaarheid kan verrassend zijn.
+      </p>
+      <h1 id="oranjetitel">Clyde</h1>
+      <p id="pac">
+        Pac-Man is de hoofdpersoon van het gelijknamige spel. Hij is een gele, <br>
+        ronde figuur die door een doolhof beweegt en punten verzamelt door het eten <br>
+        van kleine gele stippen. Zijn doel is om alle stippen te eten terwijl hij <br>
+        wordt achtervolgd door vier spookjes. Pac-Man kan speciale "power pellets" eten, <br>
+        waardoor hij tijdelijk de spookjes kan vangen. Zijn iconische ontwerp en gameplay <br>
+        hebben hem tot een van de meest herkenbare videogamefiguren gemaakt.
+      </p>
+
+
+      <h1 id="pact">Pacman</h1>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn" style="display: block" onclick="location.href= 'https://silver-space-fiesta-6949qv5ww9xw36rj-5504.app.github.dev/Kavish/index-2.html'"> informatie </button>
+        <button type="button" class="btn" style="display: block" onclick="location.href='https://silver-space-fiesta-6949qv5ww9xw36rj-5504.app.github.dev/Kavish/'" >Home page</button>
+      </div>
+
+
 </body>
 </html>
