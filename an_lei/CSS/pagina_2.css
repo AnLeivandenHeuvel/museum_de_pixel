@@ -51,13 +51,8 @@ p3 {
     display:inline-block;
     border:1px solid;
  }
- #tekst {
-    width: 30%;
-    padding: 15px;
-    margin:0px;
-    display:inline-block;
-    border:1px solid;
- }
+
+ 
 #arcade {
   float: left;
   border: 5px;

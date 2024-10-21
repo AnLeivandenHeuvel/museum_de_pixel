@@ -1,68 +1,106 @@
-.container {
-    display: flex;
-    height: 100vh; 
-}
- 
-.section {
-    flex: 1; 
-    padding: 20px;
-    border: 1px solid #000003;
-    box-sizing: border-box; 
-}
-#Galaga {
-    background-image: url(../img/background_galaga.jpg);
-    width: 30vw;
-    background-repeat:  no-repeat;
-    background-size: cover;
-}
-#Pac-Man{
-    background-image: url(../img/background_pacman.jpg);
-    width: 30vw;  
-}
- 
-#Mario {
-    background-image: url(../img/Mario\ Sunshine\ background4.png);
-    width: 30vw;
-    background-repeat:  no-repeat;
-    background-size: cover;
-    
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
 }
 
-.game_img {
-    width: 80%;
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background: #000000;
+   padding-top: 60px; 
+   background-color: #000000;
+}
+
+.navbar {
+   position: fixed; 
+   top: 0; 
+   left: 0; 
+   width: 100%; 
+   z-index: 
 }
 
 .navbar ul {
-    list-style-type: none;
-    background-color: rgb(27, 82, 150);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
- }
- .navbar a{
-    color: aliceblue;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
- }
- .navbar a:hover {
-    background-color: greenyellow;
- }
- .navbar li{
-    float: center;
- }
+   list-style-type: none;
+   background-color: rgb(27, 82, 150);
+   padding: 0;
+   margin: 0;
+   display: flex; 
+   justify-content: center; 
+}
+
+.navbar li {
+   float: left; 
+}
+
+.navbar a {
+   color: aliceblue;
+   text-decoration: none;
+   padding: 15px;
+   display: inline-block;
+   text-align: center;
+}
+
+.navbar a:hover {
+   background-color: greenyellow;
+}
+
+.container {
+   display: flex;
+   height: 100vh; 
+}
+
+.section {
+   flex: 1; 
+   padding: 20px;
+   border: 1px solid #000003;
+   box-sizing: border-box; 
+}
+
+#Galaga {
+   background-image: url(../img/background_galaga.jpg);
+   width: 30vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#Pac-Man {
+   background-image: url(../img/background_pacman.jpg);
+   width: 30vw;
+     
+}
+
+#Mario {
+   background-image: url("../img/Mario Sunshine background4.png");
+   width: 30vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h4 {
+   font-size: 3em;
+   letter-spacing: 15px;
+   color: rgb(47, 201, 191);
+   text-transform: uppercase;
+   width: 100%;
+   text-align: center;
+}
+
 
  p1 {
-    color: white;
+    color: limegreen;
+    font-family: 'Courier New', Courier, monospace;
  }
  p2 {
-    color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
  }
  p3 {
     color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
  }
-
 
  *{
     margin: 0;
@@ -77,9 +115,9 @@
    min-height: 100vh;
    background: #0725;
  }
- h2{
+ h4{
    position: relative;
-   font-size: 6em;
+   font-size: 3em;
    letter-spacing: 15px;
    color: rgb(47, 201, 191);
    text-transform: uppercase;
@@ -106,3 +144,12 @@
 
    }
 }
+
+#P-Mlogo {
+   float: center;
+}
+.button {
+   background-color: white; 
+   color: black; 
+   border: 2px solid #04AA6D;
+ }

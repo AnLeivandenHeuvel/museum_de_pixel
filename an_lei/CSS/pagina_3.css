@@ -18,16 +18,19 @@ body{
     text-align: center;
  }
  .navbar a:hover {
-    background-color: greenyellow;
+    background-color: rgb(0, 255, 26);
  }
  .navbar li{
     float: left;
  }
 p2 {
-  color: limegreen
+  color: rgb(0, 255, 26);
 }
 p3{
-  color: limegreen;
+  
+  color: rgb(0, 255, 26);
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
 }
 
  p1 {
@@ -35,7 +38,7 @@ p3{
    padding: 0;
    color: lawngreen;
   font-size: 6em;
-  float: right;
+  float: centerß;
  }
  p1 span {
    display: table-cell;
@@ -92,29 +95,72 @@ p3{
 }
 
 .ship {
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: white;
-   text-align: center;
-   background-image: url(../img/pagina_3/moving_ship.webp) ; 
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-size: 150px 250px;
-   background-position: 0 50%; 
-   animation: moveBackground 5s linear infinite;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/pagina_3/moving_ship.webp); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 20px; /* Zet het 20px vanaf de onderkant */
+  left: calc(50% - 50px); /* Centraal plaatsen */
+  animation: moveBackground 5s linear infinite;
+}
+@keyframes moveBackground {
+  0% {
+      left: 0;
+  }
+  50% {
+     left: calc(100% - 100px)
+  }
+  100% {
+     left: 0;
+  }
+}
+.bullet {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  bottom: 20px; /* Zet het bullet 120px boven de ship */
+  animation: bulletSpeed 2s linear forwards;
 }
 
-@keyframes moveBackground {
-   0% {
-       background-position: 0 50%; /* Start aan de linkerkant */
-   }
-   50% {
-       background-position: 100vw 50%; /* Beweeg naar de rechterkant */
-   }
-   100% {
-       background-position: 0 50%; /* Terug naar de linkerkant */
-   }
+.bullet {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  bottom: 20px;
+  animation:bulletSpeed 2s linear forwards;
+}
+
+@keyframes bulletSpeed {
+  0% {
+      top: 900px;
+  }
+  100% {
+      top: -8px;
+  }
+}
+
+#info {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  top: 10p;
+  left: 955px;
+  
+}
+#stijl {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align:155px;
+  top: -115px;
+  left: 1450px;
+}
+.video{
+  top:-115px;
+  
 }
