@@ -1,3 +1,262 @@
 body{
     background-image: url(images/52a33c10ae0c117156dd2807a4f324da.jpg);
 }
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(68, 17, 116);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(147, 176, 255);
+}
+
+.navbar li {
+    float: left;
+}
+header{
+    background-color: rgb(68, 17, 116);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1{
+    color: #111;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+h1 span:nth-child(1) { animation-delay: 0s; }
+h1 span:nth-child(2) { animation-delay: 0.25s; }
+h1 span:nth-child(3) { animation-delay: 0.5s; }
+h1 span:nth-child(4) { animation-delay: 0.75s; }
+h1 span:nth-child(5) { animation-delay: 1s; }
+h1 span:nth-child(6) { animation-delay: 1.25s; }
+h1 span:nth-child(7) { animation-delay: 1.5s; }
+h1 span:nth-child(8) { animation-delay: 2s; }
+h1 span:nth-child(9) { animation-delay: 2.25s; }
+
+@keyframes animate
+{
+    0%, 100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 160px #00b3ff,
+        0 0 320px #00b3ff;
+    }
+    5%, 95%
+    { 
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px none;
+    }
+}
+
+#blink{
+    position: absolute;
+    top: 800px;
+    left: 1200px;
+    height: 190px;
+    width: auto;
+}
+#inky{
+    position: absolute;
+    top: 215px;
+    left: 1200px;
+    height: 190px;
+    width: auto;
+}
+#pinky{
+    position: absolute;
+    top: 510px;
+    left: 1200px;
+    height: 190px;
+    width: auto;
+}
+#Clyde{
+    position: absolute;
+    top: 510px;
+    height: 190px;
+    width: auto;
+}
+#big{
+    position: absolute;
+    top: 210px;
+    height: 190px;
+    width: auto;
+}
+#pac{
+    color: #fff;
+    position: absolute;
+    top: 234px;
+    left: 290px;
+    font-size: 20px;
+}
+#pact{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 280px;
+    top: 210px;
+}
+#roze{
+    color: white;
+    position: absolute;
+    left: 1400px;
+    top: 234px;
+    font-size: 20px;
+}
+#blauw{
+    color: white;
+    position: absolute;
+    left: 1400px;
+    top: 530px;
+    font-size: 20px;
+}
+#rood{
+    color: white;
+    position: absolute;
+    left: 1400px;
+    top: 840px;
+    font-size: 20px;
+}
+#roodtitel{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 1400px;
+    top: 790px;
+}
+#blauwtitel{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 1400px;
+    top: 500px;
+}
+#oranjetitel{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 220px;
+    top: 500px;
+}
+#oranje{
+    color: white;
+    position: absolute;
+    left: 220px;
+    top: 540px;
+    font-size: 20px;
+}
+.btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: auto;
+}
+
+.btn {
+    display: block;
+    margin: 5px 0; 
+    padding: 3px 8px;
+    font-size: 40px; 
+    font-family: monospace;
+    border: 2px solid #000;
+    color: white;
+    background-color: #001f98;
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 600px;
+    position: relative; 
+    top: 600px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 106, 255, 0.8); 
+}
+
+.btn:active {
+    box-shadow: 0 0 20px rgba(0, 106, 255, 0.8);
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 1300px;
+    left: 10px; 
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(45deg, #00b3ff, #13136f, #2121DE, #5e5a59, #761414, #9923b1);
+    background-size: 600%;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    opacity: 0; 
+    border-radius: 5px; 
+    z-index: -1; 
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.btn:hover::before,
+.btn:active::before {
+    opacity: 1; 
+}
+.tekst {
+    display: none; /* Verberg de tekst standaard */
+    margin-top: 10px;
+    padding: 10px;
+    color: #111;
+    font-size: 20px;
+}
+.klikbare-afbeelding {
+    cursor: pointer; /* Verander de cursor naar pointer */
+}
+#pinky-titel {
+    color: white; /* Of een andere kleur die je wilt */
+    font-size: 40px; /* Pas de grootte aan zoals gewenst */
+    
+    position: absolute;
+    left: 1400px;
+    
+}
+#inky-titel {
+    color: white; /* Of een andere kleur die je wilt */
+    font-size: 40px; /* Pas de grootte aan zoals gewenst */
+    
+    position: absolute;
+    left: 1400px;
+    top: 500px;
+}
+    
