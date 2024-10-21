@@ -26,6 +26,13 @@ body {
     float: left;
   }
 
+  h1 {
+    background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+  }
   p {
     background-color: rgba(29,65,63,0.5);
     color: white;
@@ -38,4 +45,16 @@ body {
 #sun {
     max-width: 10%;
     height: auto;
+}
+
+#Rood {
+background-color: red;
+
+}
+
+#Groen{
+  background-color: green;
+  
+  
+
 }

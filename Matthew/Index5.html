@@ -5,62 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="Style5.css">
+    <script type="text/javascript" src="script5.js"></script>
+    
 </head>
 <body>
-
+    
     <nav class="navbar">
         <ul>
-            <li> <a href=""> Home</a></li>
+            <li> <a href="../home page/home_page.html"> Home</a></li>
             <li> <a href="Index.html"> Introductie</a></li>
             <li> <a href="Index2.html"> Geschiedenis</a></li>
             <li> <a href="Index3.html">Verhaallijn</a></li>
-            <li> <a href=""> Gameplay</a></li>
+            <li> <a href="Index5.html">Quiz</a></li>
+            
         </ul>
     </nav>
-    <br>
-    <p>
-    Vraag 1: In welk jaar werd Mario Sunshine uitgebracht? <br>
-    <input type="radio" name="Question1" id="correct1" >2001 <br>
-    <input type="radio" name="Question1" >2002 <br>
-    <br>
-    Vraag 2: Hoeveel exemplaren van Mario Sunshine werden er verkocht? <br>
-    <input type="radio" name="Question2" >5.85 miljoen <br>
-    <input type="radio" name="Question2" >5.71 miljoen <br>
-    <input type="radio" name="Question2" id="correct2" >5.91 miljoen <br>
-    <input type="radio" name="Question2" >6 miljoen <br>
-    <br>
-    Vraag 3: Hoe heet het apparaat waarmee Mario water kan spuiten? <br>
-    <input type="radio" name="Question3" >Fludd <br>
-    <input type="radio" name="Question3" >FLUD <br>
-    <input type="radio" name="Question3" >Flud <br>
-    <input type="radio" name="Question3" id="correct3" >FLUDD <br>
-    <br>
-    Vraag 4: Hoe heet het laatste level van de game? <br>
-    <input type="radio" name="Question4" >Bianco Hills <br>
-    <input type="radio" name="Question4" id="correct4">Corona Mountain <br>
-    <input type="radio" name="Question4" >Noki Bay <br>
-    <input type="radio" name="Question4" >Pianta Village <br>
-    <br>
-    Vraag 5: Wat is hier de naam van? <br>
-    <img src="Images/Mario Sunshine Shine Sprite.webp" id="sun"> <br>
-    <input type="radio" name="Question5" >Sun Shine(s) <br>
-    <input type="radio" name="Question5" id="correct5">Shine Sprite(s) <br>
-    <input type="radio" name="Question5" >Shine(s) <br>
-    <br>
+    <div class="text-container">
 
-    <input type="submit" name="Inleveren" value="Inleveren" onclick="result()">
-
-    
-
-
-
-
-
+    <h1>Quiz</h1>
+    <p> Vraag 1: In welk jaar werd Mario Sunshine uitgebracht? <br>
+        <input type="radio" name="Question1" id="correct1" >2002 <br>
+        <input type="radio" name="Question1" >2001 <br>
+        <br>
+        Vraag 2: Hoeveel exemplaren van Mario Sunshine werden er verkocht? <br>
+        <input type="radio" name="Question2" >5.85 miljoen <br>
+        <input type="radio" name="Question2" >5.71 miljoen <br>
+        <input type="radio" name="Question2" id="correct2" >5.91 miljoen <br>
+        <input type="radio" name="Question2" >6 miljoen <br>
+        <br>
+        Vraag 3: Hoe heet het apparaat waarmee Mario water kan spuiten? <br>
+        <input type="radio" name="Question3" >Fludd <br>
+        <input type="radio" name="Question3" >FLUD <br>
+        <input type="radio" name="Question3" >Flud <br>
+        <input type="radio" name="Question3" id="correct3" >FLUDD <br>
+        <br>
+        Vraag 4: Hoe heet het laatste level van de game? <br>
+        <input type="radio" name="Question4" >Bianco Hills <br>
+        <input type="radio" name="Question4" id="correct4">Corona Mountain <br>
+        <input type="radio" name="Question4" >Noki Bay <br>
+        <input type="radio" name="Question4" >Pianta Village <br>
+        <br>
+        Vraag 5: Wat is hier de naam van? <br>
+        <img src="Images/Mario Sunshine Shine Sprite.webp" id="sun"> <br>
+        <input type="radio" name="Question5" >Sun Shine(s) <br>
+        <input type="radio" name="Question5" id="correct5">Shine Sprite(s) <br>
+        <input type="radio" name="Question5" >Shine(s) <br>
+        <input type="radio" name="Question5" >Sun(s) <br>
+        <br>
+        
+        <input id="Groen" type="submit" name="Inleveren" value="Inleveren" onclick="result()">
+        <input id="Rood" type="reset" name="Reset" value="Reset" onclick="reset()">
+      
+        
+        
+        
+        
+        
+        
+        
     </p>
-   
-
-
-
-
+    
+    </div>
+    
+    
+    
 </body>
 </html>
