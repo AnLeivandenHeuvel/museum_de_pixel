@@ -2,12 +2,17 @@ body {
     background-image: url("../img/background.jpg");
 }
 h1 {
-    color: white;
+    color: rgb(145, 255, 0);
     font-family: 'Courier New', Courier, monospace;
     position: relative;
 }
+h2 {
+   color: rgb(145, 255, 0);
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+}
 p3 {
-    color: rgb(145, 255, 0);
+    color: rgb(0, 255, 26);
     font-family: 'Courier New', Courier, monospace;
     position: relative;
  }
@@ -31,7 +36,9 @@ p3 {
  .navbar li{
     float: left;
  }
-
+#logo {
+   float: left;
+}
 .Namaco {
     border: 1px solid black;
     border: 5px solid rgb(181, 26, 18);
@@ -43,15 +50,25 @@ p3 {
     margin:0px;
     display:inline-block;
     border:1px solid;
-  
  }
- #tekst {
-    width: 30%;
-    padding: 15px;
-    margin:0px;
-    display:inline-block;
-    border:1px solid;
- }
-.img {
-  
+
+ 
+#arcade {
+  float: left;
+  border: 5px;
+  border-color: aquamarine;
+}
+.img_1 {
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px; 
+   margin-top: 10px;
+}
+.img_2 {
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   gap: 10px; 
+   margin-top: 10px;
 }
