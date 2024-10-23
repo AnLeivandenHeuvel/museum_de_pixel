@@ -1,7 +1,6 @@
 function result() {
     var score = 0;
 
-    // Check answers for each question
     if (document.getElementById('correct1').checked) score++;
     if (document.getElementById('correct2').checked) score++;
     if (document.getElementById('correct3').checked) score++;
@@ -13,7 +12,7 @@ function result() {
 }
 
 function reset() {
-    // Get all radio buttons and uncheck them
+    
     var radios = document.querySelectorAll('input[type="radio"]');
     radios.forEach(function(radio) {
         radio.checked = false;
