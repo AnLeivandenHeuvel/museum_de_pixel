@@ -101,8 +101,8 @@ p3{
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  bottom: 20px; /* Zet het 20px vanaf de onderkant */
-  left: calc(50% - 50px); /* Centraal plaatsen */
+  bottom: 20px; 
+  left: calc(50% - 50px); 
   animation: moveBackground 5s linear infinite;
 }
 @keyframes moveBackground {
@@ -121,7 +121,7 @@ p3{
   width: 8px;
   height: 8px;
   background-color: #fff;
-  bottom: 20px; /* Zet het bullet 120px boven de ship */
+  bottom: 20px; 
   animation: bulletSpeed 2s linear forwards;
 }
 
@@ -160,7 +160,7 @@ p3{
   top: -115px;
   left: 1450px;
 }
-.video{
+#video{
   top:-11
   5px;
   
