@@ -148,7 +148,7 @@ p3{
   padding: 0;
   position: relative;
   text-align: left;
-  top: 10p;
+  top: 1px;
   left: 955px;
   
 }
@@ -161,7 +161,7 @@ p3{
   left: 1450px;
 }
 #video{
-  top:-11
-  5px;
-  
+  position: absolute;
+  float: left;
+    
 }

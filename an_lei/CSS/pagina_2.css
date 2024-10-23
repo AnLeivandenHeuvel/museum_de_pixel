@@ -53,10 +53,9 @@ p3 {
  }
 
  
-#arcade {
-  float: left;
-  border: 5px;
-  border-color: aquamarine;
+ .arcade{
+   position: absolute;
+   left: 375px; 
 }
 .img_1 {
    display: flex;
@@ -64,6 +63,7 @@ p3 {
    flex-wrap:wrap;
    gap: 10px; 
    margin-top: 10px;
+  
 }
 .img_2 {
    display: flex;
