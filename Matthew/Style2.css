@@ -6,6 +6,11 @@ body {
     font-family: Arial, sans-serif;
 h1 {
   text-align: center;
+  background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
 }
 }
 p {

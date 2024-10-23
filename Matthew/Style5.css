@@ -3,10 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif;
-    
 
-
-}
 
 .navbar ul {
     list-style-type: none;
@@ -29,23 +26,35 @@ body {
     float: left;
   }
 
-
-
-
-  #Prison {
-    max-width: 20%;
-    height: auto;
-    
-  }
-  
-
-  .zwart {
+  h1 {
     background-color: rgba(29,65,63,0.5);
     color: white;
     padding: 20px;
     margin: 0 auto;
     width: 1000px;
-
   }
+  p {
+    background-color: rgba(29,65,63,0.5);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px;
+  }
+}
 
- 
+#sun {
+    max-width: 10%;
+    height: auto;
+}
+
+#Rood {
+background-color: red;
+
+}
+
+#Groen{
+  background-color: green;
+  
+  
+
+}

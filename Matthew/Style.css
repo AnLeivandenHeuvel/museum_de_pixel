@@ -23,14 +23,6 @@ h1 {
 }
 
 
-  p {
-    background-color: rgba(29,65,63,0.5);
-    color: white;
-    padding: 20px;
-    margin: 0 auto;
-    width: 1000px;
-}
-
 
 ul {
   list-style: circle;
@@ -48,6 +40,7 @@ ul {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  width: 100%;
 }
 .navbar a{
   color: aliceblue;
@@ -85,3 +78,10 @@ ul {
   width: 300px;
 } 
   
+p {
+  background-color: rgba(29,65,63,0.5);
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 1000px;
+}
