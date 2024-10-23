@@ -9,9 +9,8 @@ body {
    display: flex;
    flex-direction: column;
    min-height: 100vh;
-   background: #000000;
    padding-top: 60px; 
-   background-color: #000000;
+   background-color:  rgb(27, 82, 150);
 }
 
 .navbar {
@@ -41,10 +40,11 @@ body {
    padding: 15px;
    display: inline-block;
    text-align: center;
+   font-size: 30px;
 }
 
 .navbar a:hover {
-   background-color: greenyellow;
+   background-color: lightblue;
 }
 
 .container {
@@ -55,7 +55,7 @@ body {
 .section {
    flex: 1; 
    padding: 20px;
-   border: 1px solid #000003;
+   border: 1px solid white;
    box-sizing: border-box; 
 }
 
@@ -113,7 +113,6 @@ h4 {
    justify-self: center;
    align-items: center;
    min-height: 100vh;
-   background: #0725;
  }
  h4{
    position: relative;
@@ -149,7 +148,26 @@ h4 {
    float: center;
 }
 .button {
-   background-color: white; 
-   color: black; 
    border: 2px solid #04AA6D;
  }
+
+.btn{
+   width: 200px;
+   font-size: 40px;
+
+}
+#btn1{
+   background-color: lightskyblue;
+   width: 80%;
+   border: 5px solid lightblue;
+}
+#btn2{
+   background-color:  #001f98;
+   border: 5px solid #010f46;
+   color: white;
+}
+#btn3{
+   background-color: darkslategrey;
+   color: limegreen;
+   border: 5px solid rgb(57, 65, 65);
+}
