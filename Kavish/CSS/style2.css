@@ -59,6 +59,7 @@ p{
     position: relative; 
     top: 660px;
     transition-duration: 0.4s;
+    text-align: center;
 }
 
 .btn:hover {

@@ -126,6 +126,7 @@ h1 span:nth-child(6) { animation-delay: 1.25s; }
     position: relative; 
     bottom: 100px;
     transition-duration: 0.4s;
+    text-align: center;
 }
 
 .btn:hover {
