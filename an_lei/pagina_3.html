@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gameplay</title>
     <link rel="stylesheet" href="CSS/pagina_3.css">
+    <script src="javascript/JS_pagina_3.js"></script>
  
     
 </head>
@@ -66,25 +67,9 @@
         </div>
        
 
-    
-       
-
     <div class="ship" id="ship">
         <p></p>
     </div>
-    <script>
-        window.addEventListener("click", () => {
-            const bulletEl = document.createElement("span")
-            const shipEl = document.getElementById("ship")
-            bulletEl.className = "bullet" // maakt <span class="bullet">
-            document.body.append(bulletEl) // Voegt span toe aan body
-            bulletEl.style.left = shipEl.offsetLeft + 5 + "px"
-            // En weer opruimen
-          
-            setTimeout(() => {
-                bulletEl.remove()
-            }, 5000)
-        })
-    </script>
+   
 </body>
 </html>
