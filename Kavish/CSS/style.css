@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/52a33c10ae0c117156dd2807a4f324da.jpg);
+    background-image: url("../images/52a33c10ae0c117156dd2807a4f324da.jpg");
     height: 1920;
     width: 1080;
 }
@@ -126,6 +126,7 @@ h1 span:nth-child(6) { animation-delay: 1.25s; }
     position: relative; 
     bottom: 100px;
     transition-duration: 0.4s;
+    text-align: center;
 }
 
 .btn:hover {
