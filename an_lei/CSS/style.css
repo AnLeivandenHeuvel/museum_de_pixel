@@ -10,12 +10,6 @@ p1 {
    left: 10px;  
    top: 10px;   
 }
-button{
-   background-color: rgba(133, 233, 11, 0.235);
-   color: white;
-   border-radius: 30px;
-  margin-top: 120px;
-}
 
 h5{
    color: rgb(145, 255, 0);
